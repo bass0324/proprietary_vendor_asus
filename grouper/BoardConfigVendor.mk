@@ -21,3 +21,5 @@ LOCAL_STEM := grouper/BoardConfigPartial.mk
 -include vendor/nvidia/$(LOCAL_STEM)
 -include vendor/nxp/$(LOCAL_STEM)
 -include vendor/widevine/$(LOCAL_STEM)
+
+PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
