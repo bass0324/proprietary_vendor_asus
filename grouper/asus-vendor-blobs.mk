@@ -8,7 +8,7 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
 
 +# Backup Services whitelist
-+PRODUCT_COPY_FILES += \
-+    $(VENDOR_FOLDER)/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
-+
+PRODUCT_COPY_FILES += \
+	$(VENDOR_FOLDER)/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+
 
