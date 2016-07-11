@@ -6,3 +6,9 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/sensors.grouper.so:system/vendor/lib/hw/sensors.grouper.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libsensors.lightsensor.so:system/vendor/lib/libsensors.lightsensor.so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
+
++# Backup Services whitelist
++PRODUCT_COPY_FILES += \
++    $(VENDOR_FOLDER)/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
++
+
